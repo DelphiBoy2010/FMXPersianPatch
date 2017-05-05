@@ -1,0 +1,224 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 551
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 416.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = #1578#1594#1740#1740#1585' '#1605#1578#1606
+    OnClick = Button1Click
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Text = #1587#1604#1575#1605' Delphi '#1582#1608#1576#1740#1567
+    Position.X = 64.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object RadioButton1: TRadioButton
+    Position.X = 376.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = #1711#1586#1740#1606#1607' '#1740#1705
+  end
+  object CheckBox1: TCheckBox
+    Position.X = 376.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = #1575#1606#1578#1582#1575#1576' '#1705#1606
+  end
+  object Label5: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = '123'
+    TabOrder = 14
+  end
+  object Label4: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = '123'
+    TabOrder = 15
+  end
+  object Label1: TLabel
+    Position.X = 232.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'hi'
+    TabOrder = 16
+  end
+  object Label2: TLabel
+    Position.X = 136.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = #39#1587#1575#1605#1575#1606#1607' '#1606#1605#1575#1740#1588#1711#1585' '#1605#1582#1586#1606#39
+    TabOrder = 17
+  end
+  object Label3: TLabel
+    Position.X = 128.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = #1587#1604#1575#1605' Delphi '#1582#1608#1576#1740#1567
+    TabOrder = 18
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Text = #1587#1604#1575#1605
+    Position.X = 192.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Text = 'hi'
+    Position.X = 192.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ListBox1: TListBox
+    Position.X = 408.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 137.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    DisableFocusEffect = True
+    Items.Strings = (
+      #1587#1604#1575#1605
+      #1740#1705
+      #1583#1608
+      #1578#1607#1585#1575#1606)
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 133.000000000000000000
+    object ComboBox1: TComboBox
+      Items.Strings = (
+        #1587#1604#1575#1605
+        #1578#1607#1585#1575#1606
+        #1602#1585#1605#1586
+        #1570#1576#1740)
+      ItemIndex = 0
+      Position.X = -216.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object Edit4: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Text = 'Hi how are you?'
+    Position.X = 192.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit5: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Text = 'This is '#1578#1587#1578' '#1576#1585#1575#1740' English and '#1601#1575#1585#1587#1740
+    Position.X = 64.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end
+      item
+        Platform = 'Windows 8 Desktop'
+      end>
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    EditMode = True
+    Position.X = 40.000000000000000000
+    Position.Y = 392.000000000000000000
+    Size.Width = 489.000000000000000000
+    Size.Height = 225.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    StyleLookup = 'ListView1Style1'
+    object Button2: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = -40.000000000000000000
+      TabOrder = 0
+      Text = 'Button2'
+    end
+    object Button3: TButton
+      Position.X = 48.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 289.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1587#1604#1575#1605' '#1582#1608#1576#1740
+    end
+    object Edit6: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Text = #1587#1604#1575#1605' '#1582#1608#1576#1740
+      Position.X = 40.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 297.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label6: TLabel
+      Position.X = 32.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 313.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1587#1604#1575#1605' '#1582#1608#1576#1740
+    end
+  end
+end
