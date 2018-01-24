@@ -5,3 +5,5 @@ It is compatible with Delphi 10.2 Tokyo.
 Add files to your project and compile it.
 Use sample to test project.
 
+Also you can use RTLFixer.
+http://www.fmxrtl.com/
